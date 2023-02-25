@@ -134,7 +134,7 @@ margin-right: 40px;
   color: var(--primary-color);
 }
 
-.header-under::after {
+.under::after {
   content: '';
   display: block;
   width: 100%;
