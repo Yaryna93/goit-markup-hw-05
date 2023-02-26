@@ -426,7 +426,6 @@ letter-spacing: 0.04em;
   background-color: var(--secondary-font-color);
   flex-basis: calc((100% - 48px)/3);
   width: 360px;
-  border: 1px solid var(--footer-text);
 }
 
 
