@@ -134,6 +134,11 @@ margin-right: 40px;
   color: var(--primary-color);
 }
 
+.under {
+  color: #404BBF;
+  position: relative;
+}
+
 .under::after {
   content: '';
   display: block;
@@ -141,13 +146,12 @@ margin-right: 40px;
   height: 4px;
   left: 0px;
   bottom: 0px;
-  margin-top: 24px;
+  position: absolute;
   background: #404BBF;
   border-radius: 2px;
   opacity: 1;
   transition: opacity 250mscubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 
 .header-address {
